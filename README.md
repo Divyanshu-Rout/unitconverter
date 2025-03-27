@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Unit Converter Utility App
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This is a comprehensive Unit Converter application built as part of a software development assignment. The app provides real-time unit conversions across multiple categories with a user-friendly interface.
+
+## Features
+
+- **Supported Conversion Categories**:
+
+  - Length
+  - Weight
+  - Temperature
+  - Area
+  - Volume
+
+- **Key Functionality**:
+  - Real-time conversion as users input values
+  - Intuitive unit selection dropdowns
+  - Swap units with a single click
+  - Detailed conversion formula display
+  - Error handling for invalid inputs
+
+## Technical Implementation
+
+### Technologies Used
+
+- Next.js 15.2.4 latest
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Shadcn/UI Components
+
+### Key Components
+
+- Dynamic conversion logic
+- Comprehensive unit conversion data structure
+- Responsive and accessible UI
+- Robust error handling
+
+## Development Process
+
+### Initial Approach
+
+1. Choose Nextjs, shadcn and tailwind
+1. Created a structured conversion data object
+1. Developed type-safe TypeScript definitions
+1. Implemented conversion logic for multiple unit categories
+1. Built a responsive user interface
+
+### Challenges Overcome
+
+- Handling complex temperature conversions
+- Creating a flexible conversion algorithm
+- Implementing real-time calculations
+- Managing different unit conversion formulas
+
+## Conversion Logic Highlights
+
+- Base unit conversion approach
+- Separate handling for temperature conversions
+- Precise floating-point calculations
+- Comprehensive error checking
+
+## Performance Optimization
+
+- Efficient use of React hooks
+- Minimal re-renders
+- Lightweight conversion calculations
+
+## Deployment
+
+- Deployed on Vercel
+- Continuous integration with GitHub
+
+## Future Improvements
+
+- Add more unit categories
+- Implement advanced conversion features
+- Enhance mobile responsiveness
+- Add unit conversion history
+
+## Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/unit-converter-app
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions, issues, and feature requests are welcome!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Created as part of a software development assignment**
